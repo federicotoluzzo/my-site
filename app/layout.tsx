@@ -1,5 +1,5 @@
-import { Children } from "react";
 import "./globals.css"
+import Link
 
 export default function RootLayout({
   children,
@@ -18,9 +18,9 @@ export default function RootLayout({
       </head>
       <body>
         <nav className="mx-auto w-fit p-8 grid grid-cols-3 gap-x-8 lg:gap-x-32">
-          <ul className="inline-block mx-auto"><a href="/"><button className="btn">Home</button></a></ul>
-          <ul className="inline-block mx-auto"><a href="/about"><button className="btn">About</button></a></ul>
-          <ul className="inline-block mx-auto"><a href="/portfolio"><button className="btn">Portfolio</button></a></ul>
+          <ul className="inline-block mx-auto"><Link href="/"><button className="btn">Home</button></Link></ul>
+          <ul className="inline-block mx-auto"><Link href="/about"><button className="btn">About</button></Link></ul>
+          <ul className="inline-block mx-auto"><Link href="/portfolio"><button className="btn">Portfolio</button></Link></ul>
         </nav>
         {children}
         <footer className="text-center py-8 footerbar">
