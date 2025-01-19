@@ -35,10 +35,10 @@ export default function Home() {
           <div className="mockup-phone hidden lg:inline-block">
             <div className="camera"></div>
             <div className="display">
-              <div className="artboard artboard-demo phone-1"><iframe src="http://fuffo.net" className="h-full w-full"></iframe></div>
+              <div className="artboard artboard-demo phone-1"><iframe src="https://fuffo.net" className="h-full w-full"></iframe></div>
             </div>
           </div>
-          <div className="mockup-browser bg-base-300 border block lg:hidden w-f">
+          <div className="mockup-browser bg-base-300 border inline-block mx-auto lg:hidden max-w-[80%] min-h-o lg:w-full" style={{ maxWidth: "80vw" }}>
             <div className="mockup-browser-toolbar">
               <div className="input">https://fuffo.net</div>
             </div>
