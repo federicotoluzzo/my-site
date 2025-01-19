@@ -12,8 +12,8 @@ export default function RootLayout({
       <head>
         <meta content="Federico Toluzzo" property="og:description" />
         <meta content="https://fuffo.net" property="og:url" />
-        <meta content="https://embed.com/embedimage.png" property="og:image" />
-        <meta content="#43B581" data-react-helmet="true" name="theme-color" />
+        <meta content="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.ypz_d6GL7n2nXfQnbw_ARAHaFj%26pid%3DApi&f=1&ipt=a815bd195e0b7ff305873251ac030d0f45fb00481d5a7bcfd5426b3c721944d3&ipo=images" property="og:image" />
+        <meta content="#AABBFF" data-react-helmet="true" name="theme-color" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
       <body>
