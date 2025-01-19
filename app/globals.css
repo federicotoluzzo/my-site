@@ -26,3 +26,23 @@ body {
   background: var(--main);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+h2{
+  color: var(--accent);
+  font-size: 8vh;
+  font-weight: bolder;
+  text-align: center;
+}
+
+h3{
+  color: var(--light);
+  font-size: 5vh;
+  font-weight: bold;
+  text-align: center;
+}
+
+p{
+  color: var(--white);
+  color: --light;
+  line-height: 1.8;
+}
