@@ -34,6 +34,10 @@ h2{
   text-align: center;
 }
 
+.footerbar{
+  background-color: var(--dark);
+}
+
 h3{
   color: var(--light);
   font-size: 5vh;

@@ -23,7 +23,7 @@ export default function RootLayout({
           <ul className="inline-block mx-auto"><a href="/portfolio"><button className="btn">Portfolio</button></a></ul>
         </nav>
         {children}
-        <footer className="text-center py-8">
+        <footer className="text-center py-8 footerbar">
           <p>This is a footer</p>
           <br></br>
           <p>People usually write legal stuff here or something I guess</p>

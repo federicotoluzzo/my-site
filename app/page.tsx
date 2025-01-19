@@ -12,7 +12,7 @@ export default function Home() {
           <p className="inline">Advent of Code 2024 was a great opportunity to learn something new: instead of focusing on completing the tasks, I chose to use Rust, a highly performant language which is recently getting a lot of praise. <br></br>Eventually, I couldn't make it past day 6, but I learned a lot in the process. <br></br>This was my attempt at day 5 part 2, which showed me how bad O(n*n!) is.</p>
         </div>
         
-        <div className="mockup-code block m-8">
+        <div className="mockup-code block m-8 w-full">
           <pre data-prefix="1"><code>{"fn bogosort(mut arr: &mut Vec<i32\>, rules:HashMap<i32, HashSet<i32>>){"}</code></pre>
           <pre data-prefix="2"><code>{"  let mut vec = arr.clone();"}</code></pre>
           <pre data-prefix="3"><code>{"  let mut arrcpy = arr.clone();"}</code></pre>
@@ -30,6 +30,30 @@ export default function Home() {
           <pre data-prefix="15"><code>{"  }"}</code></pre>
         </div>
       </div>
+      <Separator />
+      <div className="overflow-clip lg:grid grid-cols-2">
+        <div className="m-8 h-full w-fit mx-auto">
+          <div className="mockup-phone hidden lg:inline-block">
+            <div className="camera"></div>
+            <div className="display">
+              <div className="artboard artboard-demo phone-1"><iframe src="http://localhost:3000" className="h-full w-full"></iframe></div>
+            </div>
+          </div>
+          <div className="mockup-browser bg-base-300 border block lg:hidden w-f">
+            <div className="mockup-browser-toolbar">
+              <div className="input">https://fuffo.net</div>
+            </div>
+            <iframe src="http://localhost:3000" className="h-full w-full"></iframe>
+          </div>
+        </div>
+        <div className="m-8 line content-center">
+          <h3 className="mb-4">This website</h3>
+          <p className="inline">This website was made in an effort to learn <a href="https://nextjs.org/">Next.js</a> and <a href="https://react.dev/">React</a>. <br></br>
+            Also, despite it not being planned, I'm using tailwind and daisyui.
+          </p>
+        </div>
+      </div>
+      
     </>
   );
 }
