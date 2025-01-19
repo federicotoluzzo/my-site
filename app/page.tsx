@@ -8,7 +8,7 @@ export default function Home() {
       <div className="overflow-clip lg:grid grid-cols-2">
         <div className="m-8 line self-center">
           <h3 className="mb-4">AoC 2024</h3>
-          <p className="inline">Advent of Code 2024 was a great opportunity to learn something new: instead of focusing on completing the tasks, I chose to use Rust, a highly performant language which is recently getting a lot of praise. <br></br>Eventually, I couldn't make it past day 6, but I learned a lot in the process. <br></br>This was my attempt at day 5 part 2, which showed me how bad O(n*n!) is.</p>
+          <p className="inline">Advent of Code 2024 was a great opportunity to learn something new: instead of focusing on completing the tasks, I chose to use Rust, a highly performant language which is recently getting a lot of praise. <br></br>Eventually, I couldn&apost make it past day 6, but I learned a lot in the process. <br></br>This was my attempt at day 5 part 2, which showed me how bad O(n*n!) is.</p>
         </div>
         
         <div className="mockup-code block m-8 w-full">
@@ -48,7 +48,7 @@ export default function Home() {
         <div className="m-8 line content-center">
           <h3 className="mb-4">This website</h3>
           <p className="inline">This website was made in an effort to learn <a href="https://nextjs.org/">Next.js</a> and <a href="https://react.dev/">React</a>. <br></br>
-            Also, despite it not being planned, I'm using tailwind and daisyui.
+            Also, despite it not being planned, I&aposm using tailwind and daisyui.
           </p>
         </div>
       </div>

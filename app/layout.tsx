@@ -28,7 +28,7 @@ export default function RootLayout({
           <br></br>
           <p>People usually write legal stuff here or something I guess</p>
           <br></br>
-          <p>But I'll just say this site was made by none other than <span>Federico Toluzzo</span></p>
+          <p>But I&aposll just say this site was made by none other than <span>Federico Toluzzo</span></p>
         </footer>
       </body>
     </html>
