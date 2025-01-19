@@ -11,7 +11,7 @@ export default function Home() {
           <p className="inline">Advent of Code 2024 was a great opportunity to learn something new: instead of focusing on completing the tasks, I chose to use Rust, a highly performant language which is recently getting a lot of praise. <br></br>Eventually, I couldn&apost make it past day 6, but I learned a lot in the process. <br></br>This was my attempt at day 5 part 2, which showed me how bad O(n*n!) is.</p>
         </div>
         
-        <div className="mockup-code block m-8 w-full">
+        <div className="mockup-code block m-8">
           <pre data-prefix="1"><code>{"fn bogosort(mut arr: &mut Vec<i32\>, rules:HashMap<i32, HashSet<i32>>){"}</code></pre>
           <pre data-prefix="2"><code>{"  let mut vec = arr.clone();"}</code></pre>
           <pre data-prefix="3"><code>{"  let mut arrcpy = arr.clone();"}</code></pre>
