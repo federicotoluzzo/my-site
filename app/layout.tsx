@@ -24,7 +24,7 @@ export default function RootLayout({
           <ul className="inline-block mx-auto"><Link href="/portfolio"><button className="btn">Portfolio</button></Link></ul>
         </nav>
         {children}
-        <footer className="text-center py-8 footerbar">
+        <footer className="text-center py-8 footerbar overflow-x-auto">
           <p>This is a footer</p>
           <br></br>
           <p>People usually write legal stuff here or something I guess</p>
