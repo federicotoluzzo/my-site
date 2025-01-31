@@ -14,16 +14,16 @@ const page = () => {
           <div className="my-10">
             <h3>CSS (Cascadind Style Sheet)</h3>
             <p>
-              CSS descrive gli stili degli elementi definiti nell'html.
+              CSS descrive gli stili degli elementi definiti nell&apos;html.
               Può essere usato per cambiare il colore del testo, dello sfondo, la dimensione di un elemento etc...
             </p>
           </div>
           <div className="my-10">
             <h3>JS (JavaScript)</h3>
             <p>
-              Dei tre, JavaScript è l'unico che può essere definito un vero linguaggio di programmazione.
+              Dei tre, JavaScript è l&apos;unico che può essere definito un vero linguaggio di programmazione.
               Ha una sintassi simile a java, però ha alcune differenze importanti.
-              Per esempio non ha un sistema di tipi e viene interpretato dal browser quindi se per esempio cerchiamo di sommare due variabili, una contenente un numero e l'altra una stringa, l'errore ci verrà comunicato solo quando verrà eseguito il codice.
+              Per esempio non ha un sistema di tipi e viene interpretato dal browser quindi se per esempio cerchiamo di sommare due variabili, una contenente un numero e l&apos;altra una stringa, l&apos;errore ci verrà comunicato solo quando verrà eseguito il codice.
             </p>
           </div>
         </div>

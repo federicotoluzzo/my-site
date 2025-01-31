@@ -3,7 +3,7 @@ import React from 'react'
 const Lucio = () => {
   return (
     <>
-      <p>Grazie dell'aiuto Lucio<br></br> fai buon uso di quest'informazione.</p>
+      <p>Grazie dell&apos;aiuto Lucio<br></br> fai buon uso di quest&apos;informazione.</p>
       <div className="mx-auto w-fit relative mt-72">
         <div className='relative w-fit mx-auto bg-black p-10 rounded-3xl'>
           <p>valentina.nappi</p>
