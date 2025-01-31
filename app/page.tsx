@@ -1,5 +1,4 @@
 import Separator from "@/props/Separator";
-import { request } from "http";
 
 export default function Home() {
   return (
