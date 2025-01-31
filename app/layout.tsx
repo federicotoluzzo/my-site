@@ -25,11 +25,7 @@ export default function RootLayout({
         </nav>
         {children}
         <footer className="text-center py-8 footerbar overflow-x-auto">
-          <p>This is a footer</p>
-          <br></br>
-          <p>People usually write legal stuff here or something I guess</p>
-          <br></br>
-          <p>But I&#39;ll just say this site was made by none other than <span>Federico Toluzzo</span></p>
+          <p>Federico Toluzzo</p>
         </footer>
       </body>
     </html>

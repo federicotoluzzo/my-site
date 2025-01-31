@@ -1,10 +1,11 @@
 import Separator from "@/props/Separator";
+import { request } from "http";
 
 export default function Home() {
   return (
     <>
       <h2>My Projects</h2>
-      <Separator />
+      <Separator/>
       <div className="overflow-clip lg:grid grid-cols-2">
         <div className="m-8 line self-center">
           <h3 className="mb-4">AoC 2024</h3>
@@ -50,6 +51,7 @@ export default function Home() {
           <p>This website was made in an effort to learn <a href="https://nextjs.org/">Next.js</a> and <a href="https://react.dev/">React</a>. <br></br>
             Also, despite it not being planned, I&#39;m using tailwind and daisyui.
           </p>
+          
         </div>
       </div>
       
